@@ -1,0 +1,6 @@
+/src/node_modules
+*.zip
+.DS_Store
+/lib
+/src/lib
+/node_modules

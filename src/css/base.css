@@ -1,0 +1,48 @@
+html,body,h1,h2,h3,h4,h5,h6,p,input,img,ul,ol,dl,li,dt,dd,textarea,figure{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	font-family: "宋体";
+	font-size: 12px;
+	/*width: 100%;*/
+	min-width: 1200px;
+}
+input,select,textarea{border: 0 none;outline-style: none;}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;
+	font-weight: normal;
+}
+i{
+	font-style: normal;
+}
+.fl{float: left;}
+.fr{float: right;}
+/*清除浮动*/
+.clearfix:after{
+	content:"";
+	display:block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	 *zoom:1;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+*{box-sizing: border-box;}
+/*公共类*/
+
+.f12{ font-size: 12px;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+

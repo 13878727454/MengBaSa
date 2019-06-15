@@ -1,0 +1,399 @@
+#nav .nav_l .allbtn ul {
+  display: block;
+}
+
+/*main===================================*/
+#main .row1 {
+  width: 250px;
+  margin-top: 500px;
+  border: 1px solid #e0e0e0;
+}
+
+#main .row1 .title {
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  background: #f7f7f7;
+}
+
+#main .row1 ul li {
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+#main .row1 ul li a {
+  display: block;
+  overflow: hidden;
+}
+
+#main .row1 ul li a img {
+  width: 60px;
+  height: 60px;
+}
+
+#main .row1 ul li a .top-txt {
+  padding: 5px;
+  width: 150px;
+  color: #999;
+}
+
+#main .row1 ul li a .top-txt .pri {
+  color: #cd0606;
+}
+
+#main .row2 {
+  width: 990px;
+}
+
+#main .row2 .line1 {
+  line-height: 30px;
+}
+
+#main .row2 .proban ul {
+  padding-bottom: 10px;
+}
+
+#main .row2 .proban ul li {
+  float: left;
+  margin-right: 8px;
+}
+
+#main .row2 .proban ul li a {
+  display: block;
+}
+
+#main .row2 .hc_filter .title {
+  background-color: #f4f4f4;
+  border-top: 1px solid #e0e0e0;
+  line-height: 35px;
+  padding: 0 15px;
+}
+
+#main .row2 .hc_filter .title .clearAll {
+  float: right;
+  display: inline-block;
+  padding-left: 18px;
+  background: url(img/sprite.png) no-repeat -270px -35px;
+}
+
+#main .row2 .hc_filter .list li {
+  overflow: hidden;
+  height: 33px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+#main .row2 .hc_filter .list li div {
+  float: left;
+  line-height: 33px;
+}
+
+#main .row2 .hc_filter .list li .tx {
+  width: 90px;
+  padding: 0 10px;
+  text-align: right;
+}
+
+#main .row2 .hc_filter .list li .onAll {
+  width: 42px;
+  padding: 5px 10px;
+}
+
+#main .row2 .hc_filter .list li .onAll span {
+  display: block;
+  background: #559b0d;
+  text-align: center;
+  color: #fff;
+  line-height: 23px;
+}
+
+#main .row2 .hc_filter .list li .chose span {
+  display: inline-block;
+  padding: 5px 10px;
+  line-height: 23px;
+}
+
+#main .row2 .hc_sort {
+  height: 34px;
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  padding: 0 15px;
+  margin-top: 15px;
+}
+
+#main .row2 .hc_sort .send {
+  width: 109px;
+  line-height: 34px;
+}
+
+#main .row2 .hc_sort .sort ul {
+  padding: 5px;
+}
+
+#main .row2 .hc_sort .sort ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+#main .row2 .hc_sort .sort ul li span {
+  display: block;
+  padding: 0 18px 0 8px;
+  line-height: 20px;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+#main .row2 .hc_sort .sort ul li .asc {
+  background: #fafafa url(../css/img/sprite.png) no-repeat -32px -250px;
+}
+
+#main .row2 .hc_sort .sort ul li .desc {
+  background: #fafafa url(../css/img/sprite.png) no-repeat -32px -282px;
+}
+
+#main .row2 .hc_sort .style {
+  height: 34px;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 10px;
+}
+
+#main .row2 .hc_sort .style span {
+  display: inline-block;
+  width: 24px;
+  height: 21px;
+  border: 1px solid #eee;
+  margin: 7px 0px 5px 5px;
+  cursor: pointer;
+}
+
+#main .row2 .hc_sort .style span:hover {
+  border: 1px solid #ccc;
+}
+
+#main .row2 .hc_sort .style .img {
+  background: url(../css/img/sprite.png) no-repeat -141px -256px;
+}
+
+#main .row2 .hc_sort .style .img.on {
+  background: url(../css/img/sprite.png) no-repeat -141px -278px;
+}
+
+#main .row2 .hc_sort .style .list {
+  background: url(../css/img/sprite.png) no-repeat -190px -256px;
+}
+
+#main .row2 .hc_sort .style .list.on {
+  background: url(../css/img/sprite.png) no-repeat -190px -278px;
+}
+
+#main .row2 .hc_sort .page {
+  width: 140px;
+  line-height: 34px;
+  padding-left: 10px;
+}
+
+#main .row2 .hc_sort .page i {
+  display: inline-block;
+  width: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul {
+  padding-top: 10px;
+}
+
+#main .row2 .hc_goods ul .imgStyle {
+  float: left;
+  width: 220px;
+  margin: 15px 5px 0 0;
+  padding: 10px 10px 20px 10px;
+}
+
+#main .row2 .hc_goods ul .imgStyle .img {
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul .imgStyle .img img {
+  width: 220px;
+  height: 220px;
+}
+
+#main .row2 .hc_goods ul .imgStyle .name {
+  cursor: pointer;
+  height: 54px;
+  margin-top: 8px;
+}
+
+#main .row2 .hc_goods ul .imgStyle .name span:hover {
+  color: #cd0606;
+  transition: all .3s;
+}
+
+#main .row2 .hc_goods ul .imgStyle .pri {
+  line-height: 22px;
+  font-size: 16px;
+  color: #cd0606;
+  padding: 20px 0 10px 0;
+}
+
+#main .row2 .hc_goods ul .imgStyle .mpri {
+  padding: 5px 0;
+}
+
+#main .row2 .hc_goods ul .imgStyle .mpri span {
+  float: left;
+}
+
+#main .row2 .hc_goods ul .imgStyle .mpri p {
+  float: right;
+}
+
+#main .row2 .hc_goods ul .imgStyle .mpri p span {
+  color: #00f;
+}
+
+#main .row2 .hc_goods ul .imgStyle .buy span {
+  display: inline-block;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  line-height: 23px;
+  padding: 0 9px;
+  margin-right: 3px;
+}
+
+#main .row2 .hc_goods ul .imgStyle .buy .go:hover {
+  color: #fff;
+  background: #cd0606;
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul .imgStyle .buy .cat:hover {
+  color: #fff;
+  background: #835a31;
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul .listStyle {
+  overflow: hidden;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#main .row2 .hc_goods ul .listStyle div {
+  float: left;
+}
+
+#main .row2 .hc_goods ul .listStyle .img {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+}
+
+#main .row2 .hc_goods ul .listStyle .img img {
+  width: 100%;
+}
+
+#main .row2 .hc_goods ul .listStyle .name {
+  cursor: pointer;
+  width: 250px;
+  padding: 40px 20px 0 20px;
+}
+
+#main .row2 .hc_goods ul .listStyle .name span:hover {
+  color: #cd0606;
+  transition: all .3s;
+}
+
+#main .row2 .hc_goods ul .listStyle .pri {
+  line-height: 22px;
+  font-size: 16px;
+  color: #cd0606;
+  padding: 40px 20px 0 20px;
+}
+
+#main .row2 .hc_goods ul .listStyle .mpri {
+  padding: 40px 20px 0 20px;
+}
+
+#main .row2 .hc_goods ul .listStyle .mpri span {
+  display: block;
+}
+
+#main .row2 .hc_goods ul .listStyle .mpri p span {
+  display: inline-block;
+  color: #00f;
+}
+
+#main .row2 .hc_goods ul .listStyle .buy {
+  float: right;
+  padding: 40px 20px 0 20px;
+}
+
+#main .row2 .hc_goods ul .listStyle .buy span {
+  display: block;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  line-height: 23px;
+  padding: 0 9px;
+  margin-bottom: 10px;
+}
+
+#main .row2 .hc_goods ul .listStyle .buy .go:hover {
+  color: #fff;
+  background: #cd0606;
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul .listStyle .buy .cat:hover {
+  color: #fff;
+  background: #835a31;
+  cursor: pointer;
+}
+
+#main .row2 .hc_goods ul li:hover {
+  box-shadow: 1px 1px 4px 0px #999999;
+}
+
+#main .row2 .hc_page {
+  height: 30px;
+  padding: 10px 0;
+}
+
+#main .row2 .hc_page ul {
+  float: right;
+}
+
+#main .row2 .hc_page ul li {
+  float: left;
+  line-height: 30px;
+}
+
+#main .row2 .hc_page ul li span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  text-align: center;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#main .row2 .hc_page ul .on {
+  background: #60a411;
+  color: #fff;
+}
+
+#main .row2 .hc_page div {
+  float: right;
+  margin-right: 10px;
+}
+
+#main .row2 .hc_page div span {
+  display: inline-block;
+  width: 17px;
+  line-height: 30px;
+  text-align: center;
+}

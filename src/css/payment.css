@@ -1,0 +1,418 @@
+@charset "UTF-8";
+#head .cart_step span {
+  width: 482px;
+  height: 105px;
+  display: none;
+}
+
+#head .cart_step .step1 {
+  background: url(../img/cart_setp1.png) no-repeat 0px 25px;
+}
+
+#head .cart_step .step2 {
+  background: url(../img/cart_setp2.png) no-repeat 0px 25px;
+}
+
+#head .cart_step .step3 {
+  background: url(../img/cart_setp3.png) no-repeat 0px 25px;
+}
+
+#head .cart_step .on {
+  display: block;
+}
+
+#nav .nav_l .allbtn ul {
+  display: none;
+}
+
+/*main================================================*/
+#main {
+  border-top: 2px solid #62A515;
+}
+
+#main .mainTop h3 {
+  font-size: 24px;
+  color: #000;
+  line-height: 34px;
+  padding: 15px 0;
+}
+
+#main .mainTop .shipping {
+  padding: 30px 0 0 10px;
+}
+
+#main .mainTop .shipping h4 {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-right: 5px;
+  margin: 15px 0;
+  width: 113px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 2px;
+  background: #62A515;
+  color: #fff;
+}
+
+#main .mainTop .shipping h4::after {
+  content: "";
+  display: inline-block;
+  border: 7px solid #fff;
+  border-top: 4px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  right: 0px;
+  top: 13px;
+}
+
+#main .mainTop .shipping p {
+  position: relative;
+}
+
+#main .mainTop .shipping p b {
+  padding-left: 12px;
+  line-height: 20px;
+  position: relative;
+  border-left: 2px solid #62A515;
+}
+
+#main .mainTop .shipping p .viewAll {
+  cursor: pointer;
+  width: 55px;
+  height: 19px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 2px;
+  background: #62A515;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 134px;
+}
+
+#main .mainTop .shipping .addressList li {
+  float: left;
+  position: relative;
+  width: 260px;
+  height: 100px;
+  padding: 16px;
+  border: 2px solid #62A515;
+  margin: 6px;
+  background: #f5f5f5;
+}
+
+#main .mainTop .shipping .addressList li p {
+  line-height: 18px;
+  position: relative;
+  font-size: 16px;
+}
+
+#main .mainTop .shipping .addressList li p b {
+  border: 0 none;
+}
+
+#main .mainTop .shipping .addressList li input {
+  position: absolute;
+  top: 45px;
+  left: 9px;
+}
+
+#main .mainTop .shipping #address {
+  position: absolute;
+  top: 10px;
+}
+
+#main .mainTop .shipping #address h4 {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-right: 5px;
+  margin: 15px 0;
+  width: 113px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(-90deg, #f7921c 5%, #fa7311 20%);
+  color: #fff;
+}
+
+#main .mainTop .shipping #address h4 a {
+  color: #fff;
+}
+
+#main .mainTop .shipping #address h4::after {
+  content: "";
+  display: inline-block;
+  border: 7px solid #fff;
+  border-top: 4px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  right: 0px;
+  top: 13px;
+}
+
+#main .mainTop .shipping .method li {
+  float: left;
+  width: 200px;
+  height: 65px;
+  margin: 6px;
+  position: relative;
+}
+
+#main .mainTop .shipping .method li input {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+#main .mainTop .shipping .insurance {
+  padding-bottom: 30px;
+}
+
+#main .mainTop .shipping .insurance span:nth-child(2) {
+  font-weight: bolder;
+}
+
+#main .mainTop .shipping .insurance > a {
+  color: #888;
+  position: relative;
+  padding-left: 15px;
+}
+
+#main .mainTop .shipping .insurance > a::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: url(../css/img/sprite.png) no-repeat -472px 0;
+  top: 2px;
+  left: -1px;
+}
+
+#main .mainTop .shipping .contactUs span {
+  position: relative;
+  padding-left: 16px;
+}
+
+#main .mainTop .shipping .contactUs span a {
+  text-decoration: underline;
+  color: #000;
+}
+
+#main .mainTop .shipping .contactUs span:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: url(../css/img/sprite.png) no-repeat -503px 0;
+  top: 2px;
+  left: -1px;
+}
+
+#main .mainTop .shipping .contactUs span:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: url(../css/img/sprite.png) no-repeat -542px 0;
+  top: 2px;
+  left: -1px;
+}
+
+#main .mainTop .bayment {
+  height: 760px;
+  padding: 10px;
+  position: relative;
+}
+
+#main .mainTop .bayment p b {
+  padding-left: 12px;
+  line-height: 20px;
+  position: relative;
+  border-left: 2px solid #62A515;
+}
+
+#main .mainTop .bayment .payMethod {
+  padding-left: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+#main .mainTop .bayment .payMethod li {
+  height: 40px;
+  padding: 0 40px 0 20px;
+  margin: 15px 0;
+  position: relative;
+}
+
+#main .mainTop .bayment .payMethod li input {
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+
+#main .mainTop .bayment .payMethod li i {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+#main .mainTop .bayment .payMethod li:nth-child(1) i {
+  background: url(../css/img/sprite.png) no-repeat -267px -190px;
+}
+
+#main .mainTop .bayment .payMethod li:nth-child(2) i {
+  background: url(../css/img/sprite.png) no-repeat -267px -230px;
+}
+
+#main .mainTop .bayment .payMethod li:nth-child(3) i {
+  background: url(../css/img/sprite.png) no-repeat -267px -270px;
+}
+
+#main .mainTop .bayment div {
+  padding: 20px;
+}
+
+#main .mainTop .bayment div span {
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: #cd0606;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+/*弹窗填写地址-----------------------*/
+#cover {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ccc;
+  display: none;
+  opacity: 0.3;
+}
+
+#chuang01 {
+  width: 400px;
+  padding: 10px 10px 30px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  position: fixed;
+  display: none;
+}
+
+#chuang01 label {
+  display: inline-block;
+  width: 145px;
+  text-align: right;
+  padding: 10px 0;
+}
+
+#chuang01 input {
+  border: 1px solid #ccc;
+  height: 22px;
+}
+
+#chuang01 .agree {
+  width: 400px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+#chuang01 .confirmAdd {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-right: 5px;
+  margin: 10px 130px;
+  width: 113px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 2px;
+  background: #62A515;
+  color: #fff;
+}
+
+#chuang01 h4 {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+#chuang01 h4 span {
+  display: inline-block;
+  padding-left: 5px;
+  border-left: 2px solid #62A515;
+}
+
+#chuang01 #close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#chuang01 #close:hover {
+  background: #cd0606;
+  color: #fff;
+}
+
+/*view all-----------------------------------*/
+#chuang02 {
+  width: 900px;
+  padding: 10px 10px 30px 10px;
+  background: #fff;
+  border: 1px solid #62A515;
+  position: fixed;
+  display: none;
+}
+
+#chuang02 .addAll {
+  overflow: hidden;
+}
+
+#chuang02 .addAll li {
+  float: left;
+  position: relative;
+  width: 260px;
+  height: 100px;
+  padding: 16px 0 0 11px;
+  border: 2px solid #62A515;
+  margin: 6px;
+  background: #f5f5f5;
+}
+
+#chuang02 .addAll li input {
+  position: absolute;
+  top: 45px;
+  left: 9px;
+}
+
+#chuang02 #close2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#chuang02 #close2:hover {
+  background: #cd0606;
+  color: #fff;
+}

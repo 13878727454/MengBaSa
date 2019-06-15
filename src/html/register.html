@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>梦芭莎</title>
+	<base href="../">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/register.css">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script src="lib/duke.js"></script>
+	<script src="js/register.js"></script>
+</head>
+<body>
+	<div id="head" class="container">
+		<a href="">
+			<img src="css/img/register_head_pic.png">
+		</a>
+	</div>
+    <div id="main" class="clearfix">
+    	<div class="user_info_l">
+    		<img src="css/img/register_banner_pic.jpg">
+    	</div>
+    	<div class="user_info_r">
+    		<div class="register_box">
+				<div class="gister-head">
+	                <span class="gister-txt loginbtn">登录
+	                	<span class="gister_bor"></span>
+	                </span>
+	                <span class="gister-txt active">注册
+	                	<span class="gister_bor"></span>
+	                </span>
+	            </div>
+	    		<div class="gister">
+					<div class="username">
+						<input type="text" placeholder="手机号/邮箱" id="phone-email">
+						<span class="username-explain explain">
+							请输入邮箱或手机号!
+						</span>
+					</div>
+	    			<div class="verify">
+	    				<p class="change-one"><span>换一张</span></p>
+	    				<div>
+	    					<input id="verify-input" type="text" placeholder="验证码">
+	    					<span id="verify-img"></span>
+	    				</div>
+	    				<span class="verify-explain explain">
+							请输入验证码!
+						</span>
+	    			</div>
+	    			<div class="move-verify">
+	    				<div>
+	    					<input id="move-verify-input" type="text" placeholder="请输入动态验证码">
+	    					<input type="button" id="get-verify-btn" value="获取动态验证码">
+	    				</div>
+	    				<span class="move-verify-explain explain">
+							请输入动态验证码!
+						</span>
+	    			</div>
+	    			<div class="psw">
+						<input type="text" placeholder="密码" id="psw-input">
+						<span class="psw-explain explain">
+							请输入8-20位字母和数字!
+						</span>
+					</div>
+					<div class="psw-again">
+						<input type="text" placeholder="确定密码" id="psw-again-input">
+						<span class="psw-again-explain explain">
+							请再次输入密码!
+						</span>
+					</div>
+					<input id="btn-register" type="button" value="同意以下协议,提交">
+					<div id="agreement">
+						<input type="checkbox" class="agreebox">
+						<span class="txt1">同意</span><span class="txt2">梦芭莎注册条款</span>
+					</div>
+	    		</div>
+    		</div>
+    		<div class="login_box">
+    			<div class="login-head">
+	                <span class="login-txt active">普通登录
+	                	<span class="login_bor"></span>
+	                </span>
+	                <span class="login-txt nopswbtn">无密码登录
+	                	<span class="login_bor"></span>
+	                </span>
+	            </div>
+	            <div class="login">
+	            	<div class="login-scan-click"></div>
+	            	<div class="myname">
+						<input type="text" placeholder="手机号/邮箱" id="myname-input">
+						<span class="myname-explain explain">
+							请输入邮箱或手机号!
+						</span>
+
+					</div>
+					<div class="mypsw">
+						<input type="text" placeholder="密码" id="mypsw-input">
+						<span class="mypsw-explain explain">
+							请输入8-20位字母和数字!
+						</span>
+					</div>
+					<div class="myverify">
+	    				<p class="change-one"><span>换一张</span></p>
+	    				<div>
+	    					<input id="myverify-input" type="text" placeholder="验证码">
+	    					<canvas id="myverify-img"></canvas>
+	    				</div>
+	    				<span class="myverify-explain explain">
+							请输入验证码!
+						</span>
+	    			</div>
+	    			<p class="forget-pwd">
+	    				<span class="yes-forget">忘记密码？</span>
+	    				<span class="go-register">注册</span>
+	    			</p>
+	    			<input id="btn-login" type="button" value="立即登录">
+	    			<p class="other-login-way">
+	    				<span>其他登录方式</span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    			</p>
+	            </div>
+    		</div>
+    		<div class="login_box2">
+    			<div class="login-head">
+	                <span class="login-txt normalbtn">普通登录
+	                	<span class="login_bor"></span>
+	                </span>
+	                <span class="login-txt active">无密码登录
+	                	<span class="login_bor"></span>
+	                </span>
+	            </div>
+	            <div class="login">
+	            	<div class="login-scan-click"></div>
+	            	<div class="myname">
+						<input type="text" placeholder="手机号/邮箱" id="myname-input">
+						<span class="myname-explain explain">
+							请输入邮箱或手机号!
+						</span>
+
+					</div>
+					<div class="myverify">
+	    				<p class="change-one"><span>换一张</span></p>
+	    				<div>
+	    					<input id="myverify-input" type="text" placeholder="验证码">
+	    					<span id="myverify-img"></span>
+	    				</div>
+	    				<span class="myverify-explain explain">
+							请输入验证码!
+						</span>
+	    			</div>
+	    			<div class="phone-code">
+	    				<div>
+	    					<input id="phone-code-input" type="text" placeholder="动态口令">
+	    					<input type="button" id="get-phone-code" value="获取手机动态口令">
+	    				</div>
+	    			</div>
+	    			<p class="forget-pwd">
+	    				<span class="yes-forget">忘记密码？</span>
+	    				<span class="go-register">注册</span>
+	    			</p>
+	    			<input id="btn-login" type="button" value="立即登录">
+	    			<p class="other-login-way">
+	    				<span>其他登录方式</span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    			</p>
+	            </div>
+    		</div>
+    		<div class="qrlogin_box">
+    			<div class="header">
+    				<span class="normal">普通登录</span>
+    				<span>|</span>
+    				<span class="nopsw">无密码登录</span>
+    			</div>
+    			<div class="qrlogin">
+    				<div class="boxl">
+    					<img src="http://qr.moonbasa.com/agent/qrimg?s=6&amp;short=0&amp;c=http://qr.moonbasa.com/login/qrimg?c=C291830DF24D638217FB1A3711DEB83FC4E61837C9C574BBB30E6360B99BB4B9602E583631B9F86BEE0FF55DF9338D9C43487E5856F9999CCF26E382D1B59F0D8F4EAADA3F5251A05C48283DACFC668D">
+    					<div class="boxr">
+    						<p>手机扫码 快速登录</p>
+    						<p>
+    							使用<span>梦芭莎APP</span>扫描
+    						</p>
+    						<p>点击下载APP</p>
+    					</div>
+    				</div>
+    				<p class="other-login-way">
+	    				<span>其他登录方式</span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    				<span></span>
+	    			</p>
+    			</div>
+    		</div>
+    	</div>
+    	<script>
+    		jQuery(function($){
+    			var $register=$(".register_box");
+    			var $login1=$(".login_box");
+    			var $login2=$(".login_box2");
+    			var $qrlogin=$(".qrlogin_box");
+    			//注册页面点击登录切换到登录页面
+    			$(".register_box .loginbtn").on("click",function(){
+    				$register.css("display","none");
+    				$login1.css("display","block");
+    			})
+    			//登录界面的普通登录、无密码登录切换
+    			$(".login_box .nopswbtn").on("click",function(){
+    				$login1.css("display","none");
+    				$login2.css("display","block");
+    			})
+    			$(".login_box2 .normalbtn").on("click",function(){
+    				$login1.css("display","block");
+    				$login2.css("display","none");
+    			})
+    			//登录界面切换到二维码登录界面,以及跳到注册界面
+    			$(".login_box,.login_box2").on("click",function(e){
+    				if(e.target.className=="login-scan-click"){
+	    				$(".login_box,.login_box2").css("display","none");
+	    				$qrlogin.css("display","block");
+    				}else if(e.target.className=="go-register"){
+    					$(".login_box,.login_box2").css("display","none");
+    					$register.css("display","block");
+    				}
+    			})
+    			//二维码登录界面 切换到 普通登录与无密码登录界面
+    			$qrlogin.on("click",function(e){
+    				if(e.target.className=="normal"){
+    					$qrlogin.css("display","none");
+    					$login1.css("display","block");
+    				}else if(e.target.className=="nopsw"){
+    					$qrlogin.css("display","none");
+    					$login2.css("display","block");
+    				}
+    			})
+    		})
+    	</script>
+    </div>
+    <div id="foot">
+    	<p>
+	        <a href="#">首页</a> 
+	        <a href="#">公司简介</a> 
+	        <a href="#">旗下品牌</a> 
+	        <a href="#">零售店址</a> 
+	        <a href="#">梦芭莎网盟</a> 
+	        <a href="#">网店代理</a> 
+	        <a href="#">网站地图</a> 
+	        <a href="#">友情链接</a> 
+	        <a href="#">加入我们</a> 
+    	</p>
+    	<p>
+    		Copyright © 2010-2019 梦芭莎官方网站，广州摩拉网络科技有限公司 All Rights Reserved 粤B2-20080069号
+    	</p>
+    </div>
+</body>
+</html>
